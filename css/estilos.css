@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: poppins, san serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.contenedor{
+    width: 1200px;
+    background-color: rgb(248, 248, 248);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* aquí comienz el header */
+
+header{
+    background-color: #E84166;
+    border-bottom: 3px solid #F2B822;
+    border-radius: 0 0 25px 25px;
+    font-size: 22px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.menu{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.botonmenu{
+    padding-right: 35px;
+}
+
+a{
+    color: white;
+    font-family: Staatliches, sans-serif;
+}
+
+a:hover{
+    opacity: 75%;
+    transition: 0.5s;
+}
+
+/* aquí empieza el aside */
+
+.logo{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 55px;
+    margin-bottom: 32px;
+}
+
+h1{
+    text-align: center;
+    font-size: 80px;
+    font-family: Staatliches, sans-serif;
+    color: #E84166;
+    margin-bottom: 25px;
+}
+
+h3{
+    text-align: center;
+    font-size: 24px;
+    color: #7B7B7B;
+}
+
+/* aquí empieza mi main */
+
+.rosa{
+    background-color: #E84166;
+    margin-top: 100px;
+}
+
+h2{
+    font-family: Staatliches;
+    font-size: 42px;
+    color: white;
+    margin-top: 50px;
+    padding-top: 100px;
+    margin-left: 145px;
+}
+
+p{
+    margin-left: 145px;
+    margin-bottom: 35px;
+    color: white;
+}
+
+.galeria{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img.imagen{
+    margin: -4px;
+}
+
+/* aquí empieza la página de foto grande*/
+
+img.diseno1{
+    display: block;
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 25px;
+}
+
+a.volver{
+    display: block;
+    color: #E84166;
+    text-align: center;
+    font-size: 32px;
+}
+
+/* aquí empieza Sobre mí*/
+
+article.sobre{
+    width: 750PX;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+}
+
+img.mifoto{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 250px;
+}
+
+h2.sobre{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 100px;
+    padding-top: 0;
+}
+
+p.sobre{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 650px;
+    padding-bottom: 50px;
+    border-bottom: 3px solid #F2B822;
+    margin-bottom: 50px;
+}
+
+/* aquí empiezan las redes*/
+
+div.redes{
+    width: 70px;
+    height: 275px;
+    background-color: #3B82C4;
+    position: fixed;
+    top: 250px;
+    left: 0px;
+    border-radius: 13px;
+}
+
+li{
+    list-style: none;
+    text-align: center;
+    padding: 5px;
+}
+
+li.fb{
+    padding-top: 10px;
+}
+
+/* aquí empieza el footer*/
+
+footer{
+    width: 1200px;
+    background-color: #F2B822;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+img.logo final{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p.derechos{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 12px;
+}
